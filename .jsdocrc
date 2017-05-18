@@ -4,7 +4,7 @@
   },
   "opts": {
     "destination": "doc",
-    "template": "node_modules/minami",
+    "template": "node_modules/boxy-jsdoc-template",
     "readme": "README.md"
   }
 }
