@@ -4,7 +4,9 @@
  * @license MIT
  *
  * @classdesc
- * Validates an email address against most RFC standards.
+ * Validate email address patterns that others don't. This project aims to support all common addresses along
+ * with many rare ones that are considered valid under RFC standards. It can be used in both client and server
+ * side environments.
  *
  * <p>
  *   <b>Valid email addresses that are supported:</b>
