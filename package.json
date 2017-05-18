@@ -1,13 +1,13 @@
 {
   "name": "email-validator-pro",
-  "description": "Validates an email address against most RFC standards.",
+  "description": "Validate email address patterns that others don't. This project aims to support all common addresses along with many rare ones that are considered valid under RFC standards. It can be used in both client and server side environments.",
   "main": "dist/EmailValidatorPro.js",
   "scripts": {
     "prepare": "npm run dist -s",
-    "dist": "npm run lint -s && npm run babel -s && npm run minify -s",
+    "dist": "npm run lint -s && npm run test -s && npm run babel -s && npm run minify -s",
     "lint": "jshint src/",
     "babel": "babel src/ -o dist/EmailValidatorPro.js",
-    "minify": "uglifyjs dist/EmailValidatorPro.js -mco dist/EmailValidatorPro.min.js --preamble \"/*github.com/Grafluxe/email-validator-pro*/\"",
+    "minify": "uglifyjs dist/EmailValidatorPro.js -mco dist/EmailValidatorPro.min.js",
     "doc": "jsdoc -c .jsdocrc",
     "test": "node test/runner"
   },
@@ -30,6 +30,6 @@
     "jasmine-pretty-html-reporter": "^0.2.5",
     "jsdoc": "^3.4.3",
     "jshint": "^2.9.4",
-    "uglify-js": "^2.7.5"
+    "uglify-js": "^3.0.7"
   }
 }
