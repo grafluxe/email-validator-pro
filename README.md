@@ -46,7 +46,7 @@ Script tag:
 
 - This project is dependency free.
 - The source code is written in ES6 and transpiled with Babel.
-- If you need to create documentation for local use, run `npm run doc`. Otherwise, visit the online [docs](http://grafluxe.com/doc/js/email-validator-pro/EmailValidatorPro.html).
+- If you need to create documentation for local use, run `npm run doc`. Otherwise, visit the online [docs](http://grafluxe.com/o/doc/email-validator-pro/EmailValidatorPro.html).
 - Some rare, but RFC compliant email addresses are not supported.
   - See the [unit test](https://rawgit.com/Grafluxe/email-validator-pro/master/test/report.html) lines labeled "Valid, but unsupported..." .
 - Pull requests are welcomed.
@@ -67,7 +67,7 @@ let evp = new EmailValidatorPro(),
 console.log(parts); //{local: "contact", domain: "email.com"}
 ```
 
-See the [full documentation](http://grafluxe.com/doc/js/email-validator-pro/EmailValidatorPro.html).
+See the [full documentation](http://grafluxe.com/o/doc/email-validator-pro/EmailValidatorPro.html).
 
 
 ### Valid Addresses
